@@ -21,7 +21,7 @@ app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
-//get utc time.. by pradeep
+//get utc time.. by pradeep1
 app.MapGet("time/utc", () => Results.Ok(DateTime.UtcNow));
 app.UseAuthorization();
 
