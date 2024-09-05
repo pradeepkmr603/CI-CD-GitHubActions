@@ -6,7 +6,7 @@ on:
     branches:
     - main
 env:
-  AZURE_WEBAPP_NAME: current-time-service
+  AZURE_WEBAPP_NAME: current-time-service1
   AZURE_WEBAPP_PACKAGE_PATH: "./publish"
 jobs:
   publish:
